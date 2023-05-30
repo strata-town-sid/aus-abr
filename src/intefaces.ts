@@ -7,6 +7,7 @@ export interface ISearchItem {
   location: ILocation;
   type: string;
   from: string;
+  gstStatus: IStatus;
 }
 
 export interface IBusinessName {
